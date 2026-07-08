@@ -121,6 +121,7 @@ Always follow these rules:
 - Do not use the structure "не X, а Y" or similar variants.
 - Do not use "Это не просто X, а...", "Тот случай, когда...", "Это не про..., это про...", "Спойлер: ...".
 - Do not use AI-like phrases: "никакой спешки — только шум волн", "городской шум на паузу", "место, где время замедляется", "перезагрузка для души".
+- Do not use template meme openings that sound fake: "режим плед, чай и не трогайте меня", "Минск включил режим...", "ну всё понятно", unless the wording sounds like a real editorial line.
 - Do not use empty cliches: "настоящая жемчужина", "кусочек Италии в центре города", "атмосфера комфорта", "гастрономический рай", "подарит незабываемые эмоции".
 - Avoid repeating the same adjectives: "отличный", "классный", "уютный", "стильный", "атмосферный". Replace repeated evaluations with concrete details.
 - Avoid identical sentence openings in neighboring paragraphs.
