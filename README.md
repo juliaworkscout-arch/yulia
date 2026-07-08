@@ -26,6 +26,10 @@ templates/
   instagram-stories.md          — шаблон сторис с трафиком
   threads-post.md               — шаблон поста в Threads
 
+skills/
+  telegram-post-skill.md        — отдельный навык для Telegram-постов
+  instagram-podborka-skill.md   — отдельный навык для Instagram-подборок
+
 calendar/
   content-calendar-template.csv — таблица контент-плана (импортируется в Google Sheets/Notion)
 
@@ -40,3 +44,12 @@ ideas-backlog.md                 — бэклог инфоповодов и ид
 4. Перед публикацией — `docs/pre-publish-checklist.md`.
 5. Публикация фиксируется в `calendar/content-calendar-template.csv`.
 6. Раз в неделю — отчёт по `docs/weekly-analytics-template.md`.
+
+## Навыки для быстрых задач
+
+Чтобы не объяснять формат каждый раз заново, используйте два отдельных навыка:
+
+- `skills/telegram-post-skill.md` — когда нужен пост в Telegram.
+- `skills/instagram-podborka-skill.md` — когда нужна подборка/карусель в Instagram.
+
+Когда появятся финальные шаблоны, добавьте их в соответствующий skill-файл — тогда они будут приоритетнее общих правил.
