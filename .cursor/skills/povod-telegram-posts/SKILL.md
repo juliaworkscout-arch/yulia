@@ -114,7 +114,7 @@ Always follow these rules:
 - Keep the text easy to read on a phone.
 - Keep it concise: short paragraphs, no long text walls.
 - Address the audience as "вы": "сохраняйте", "пишите", "делитесь", "отправляйте".
-- Do not use profanity or rough slang.
+- Do not use profanity, rough slang, or unnecessary youth slang. Replace words like "дропаем", "вайбим", "залетаем" with simple human wording.
 - Avoid dry phrases: "состоится", "мероприятие пройдёт", "посетителям будет предложено", "в рамках".
 - If the text sounds too promotional, make it more honest and editorial.
 - Do not use the word "идеальный" in recommendations and roundups.
