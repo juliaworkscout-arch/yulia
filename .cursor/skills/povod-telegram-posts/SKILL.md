@@ -140,6 +140,8 @@ Use the right format for the task:
    - Strengthen it with a shared scenario / audience pain.
    - Weak: "5 баров".
    - Better: "Куда идти после расставания с бывшим".
+   - For compact Telegram roundups, use very short item descriptions: `Name — 2-6 words`.
+   - A quote block/list format is allowed when there are many items.
 
 3. **Poll** — quick engagement format.
    - The question should be simple and easy to answer.
@@ -157,6 +159,35 @@ Use the right format for the task:
 
 7. **Announcement + poll** — event announcement plus a poll about plans.
    - Good for engagement before bigger events.
+
+## Compact Telegram roundup format
+
+Use this for quick lists with many places.
+
+```text
+[Question-style title + emoji]
+
+[One short intro: what was collected and why]
+
+> 1. [Name] — [2-6 words]
+>
+> 2. [Name] — [2-6 words]
+>
+> 3. [Name] — [2-6 words]
+>
+> ...
+
+[Short friendly ending]
+
+#[main_tag] #[extra_tag]
+```
+
+Rules:
+
+- keep item descriptions very short;
+- do not explain every place in a full paragraph;
+- make the list easy to scan on a phone;
+- use 1-2 hashtags unless a third tag is clearly useful.
 
 ## Better than cliches
 
