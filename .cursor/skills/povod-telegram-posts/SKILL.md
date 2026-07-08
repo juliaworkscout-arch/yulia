@@ -40,6 +40,7 @@ If the user has not provided enough information, ask for the missing parts befor
 3. Facts: address, date, time, price, booking link, Instagram/website.
 4. What to emphasize: vibe, benefit, unusual detail, limited offer.
 5. Whether it is advertising, barter, or partner content.
+6. Relevant navigation hashtags, if the user already selected them.
 
 ## Default output
 
@@ -48,7 +49,8 @@ Unless the user asks for something else, return:
 1. Three headline options.
 2. One ready-to-publish Telegram post.
 3. Two final CTA/question options.
-4. A short "check before publishing" list if facts are missing.
+4. Recommended hashtags.
+5. A short "check before publishing" list if facts are missing.
 
 ## Telegram post structure
 
@@ -65,7 +67,31 @@ Unless the user asks for something else, return:
 🔗 [booking/link, if relevant]
 
 [friendly ending: question, reactions, "send this to..."]
+
+[1-3 relevant navigation hashtags]
 ```
+
+## Telegram hashtag navigation
+
+Add **1-3 relevant hashtags** at the end of every Telegram post. Use only tags that really help users find the post later.
+
+Approved tags:
+
+- Brands: `#бренды`, `#одежда`, `#обувь`, `#сумки`, `#аксессуары`.
+- Places: `#рестораны`, `#кафе`, `#развлечения`, `#свидание`.
+- Events: `#открытия`, `#новости`, `#ивенты`, `#маркеты`.
+- Poster/agenda: `#афиша`.
+
+Do not use `#досуг` as a main tag. It overlaps with `#развлечения`; choose `#развлечения` for activities and things to do.
+
+Examples:
+
+- New restaurant: `#открытия #рестораны`
+- New cafe: `#открытия #кафе`
+- Date roundup: `#свидание #кафе`
+- Belarusian clothing brand: `#бренды #одежда`
+- Local market: `#маркеты #бренды`
+- Weekend agenda: `#афиша #ивенты`
 
 ## Editorial rules
 
@@ -83,6 +109,8 @@ Always follow these rules:
 - Do not use empty cliches: "настоящая жемчужина", "кусочек Италии в центре города", "атмосфера комфорта", "гастрономический рай", "подарит незабываемые эмоции".
 - Avoid repeating the same adjectives: "отличный", "классный", "уютный", "стильный", "атмосферный". Replace repeated evaluations with concrete details.
 - Avoid identical sentence openings in neighboring paragraphs.
+- Always add 1-3 relevant approved hashtags at the end of the post.
+- Do not use extra hashtags "just in case".
 
 ## Better than cliches
 

@@ -14,6 +14,7 @@ docs/
   rubrics.md                    — рубрикатор контента (Telegram + Instagram + Threads)
   content-plan-telegram.md      — недельный ритм публикаций в Telegram
   content-plan-instagram-threads.md — ритм для Instagram и Threads
+  telegram-hashtag-navigation.md — навигация Telegram по хештегам и текст закрепа
   fact-check-checklist.md       — проверка инфоповода перед публикацией
   pre-publish-checklist.md      — финальный чек-лист перед постом
   weekly-analytics-template.md  — шаблон еженедельного отчёта и стратегии роста
