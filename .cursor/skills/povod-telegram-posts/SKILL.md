@@ -78,11 +78,14 @@ Add **1-3 relevant hashtags** at the end of every Telegram post. Use only tags t
 Approved tags:
 
 - Brands: `#бренды`, `#одежда`, `#обувь`, `#сумки`, `#аксессуары`.
-- Places: `#рестораны`, `#кафе`, `#развлечения`, `#свидание`.
+- Places: `#рестораны`, `#кафе`, `#свидание`.
+- Entertainment and leisure: `#развлечения`, `#спорт`, `#кино`, `#музыка`.
+- Sights and city guide: `#достопримечательности`, `#пешеходные`, `#музеи`, `#фотолокации`.
 - Events: `#открытия`, `#новости`, `#ивенты`, `#маркеты`.
 - Poster/agenda: `#афиша`.
 
 Do not use `#досуг` as a main tag. It overlaps with `#развлечения`; choose `#развлечения` for activities and things to do.
+Do not use `#фото-локации`: the hyphen can break a Telegram hashtag. Use `#фотолокации`.
 
 Examples:
 
@@ -92,6 +95,12 @@ Examples:
 - Belarusian clothing brand: `#бренды #одежда`
 - Local market: `#маркеты #бренды`
 - Weekend agenda: `#афиша #ивенты`
+- Run / yoga / cycling route: `#спорт #развлечения`
+- Concert / DJ set: `#музыка #ивенты`
+- Cinema screening: `#кино #ивенты`
+- Minsk guide route: `#достопримечательности #пешеходные`
+- Museum / gallery: `#музеи #достопримечательности`
+- Photo spot: `#фотолокации #пешеходные`
 
 ## Editorial rules
 
