@@ -30,6 +30,10 @@ skills/
   telegram-post-skill.md        — отдельный навык для Telegram-постов
   instagram-podborka-skill.md   — отдельный навык для Instagram-подборок
 
+.cursor/rules/
+  povod-telegram-post.mdc       — project rule для Telegram-постов в Cursor
+  povod-instagram-podborka.mdc  — project rule для Instagram-подборок в Cursor
+
 calendar/
   content-calendar-template.csv — таблица контент-плана (импортируется в Google Sheets/Notion)
 
@@ -53,3 +57,10 @@ ideas-backlog.md                 — бэклог инфоповодов и ид
 - `skills/instagram-podborka-skill.md` — когда нужна подборка/карусель в Instagram.
 
 Когда появятся финальные шаблоны, добавьте их в соответствующий skill-файл — тогда они будут приоритетнее общих правил.
+
+Для Cursor дополнительно добавлены project rules:
+
+- `.cursor/rules/povod-telegram-post.mdc`
+- `.cursor/rules/povod-instagram-podborka.mdc`
+
+Их можно вызывать в чате простыми формулировками: «Telegram: напиши пост...» или «Instagram-подборка: сделай карусель...».
