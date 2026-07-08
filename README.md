@@ -20,6 +20,7 @@ docs/
   growth-ideas.md               — банк идей по развитию канала
 
 templates/
+  ai-writing-prompts.md         — промпты для генерации постов и подборок в стиле ПОВОД
   telegram-post.md              — шаблоны постов по типам рубрик
   instagram-podborka.md         — шаблон подборки для Instagram
   instagram-stories.md          — шаблон сторис с трафиком
