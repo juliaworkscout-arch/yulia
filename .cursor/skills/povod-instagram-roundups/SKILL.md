@@ -12,6 +12,9 @@ Typical user requests:
 - "Instagram-подборка: ..."
 - "сделай подборку в Instagram"
 - "нужна карусель"
+- "делаем афишу"
+- "афиша на выходные"
+- "куда сходить в Минске"
 - "сделай тексты для слайдов"
 - "сделай обложку, слайды и caption"
 - "адаптируй тему для инсты"
@@ -24,13 +27,22 @@ The Instagram roundup should feel like a useful recommendation from a friend: ea
 
 ## Required format
 
-Every Instagram roundup is an **11-slide carousel**:
+For regular roundups, use an **11-slide carousel**:
 
 1. Slide 1 — cover.
 2. Slides 2-10 — locations / ideas.
 3. Slide 11 — final CTA.
 
 If the user gives fewer than 9 places, say that more places are needed for a full carousel. If the user gives more than 9, suggest reducing to 9 or making part two.
+
+For Instagram agenda / афиша posts ("куда сходить", weekend agenda, event selection), use the event-card format:
+
+- cover: topic + dates;
+- each next slide: one event;
+- left red label: address;
+- right label: date, time, price/entry;
+- main text: event title + short description;
+- optional final CTA slide.
 
 ## Required input
 
@@ -68,6 +80,16 @@ Good logic example:
 Что нужно успеть?
 ```
 
+For agenda covers, use:
+
+```text
+АФИША
+[dates]
+
+КУДА ИДТИ НА ВЫХОДНЫХ
+В МИНСКЕ?
+```
+
 ## Slides 2-10 — location / idea
 
 One slide = one place or one idea.
@@ -80,6 +102,30 @@ One slide = one place or one idea.
 ```
 
 Slide text must be short enough for the visual template. Do not overload a card with long paragraphs.
+
+## Agenda event slide
+
+For афиша/event slides, use this structure:
+
+```text
+[left red label]
+[address]
+
+[right label]
+[date], [time]
+[price / entry]
+
+[Event title]
+[2-4 short sentences: what will happen, who it suits, what to know]
+```
+
+Event slide rules:
+
+- do not retell the whole press release;
+- keep only the useful details;
+- avoid "волшебная атмосфера", "незабываемые эмоции", "главная жемчужина";
+- if the source text is long, compress it into one human paragraph;
+- mention what to bring only if it is useful, e.g. blanket or yoga mat.
 
 ## Slide 11 — CTA
 
@@ -189,6 +235,7 @@ Before returning the final text:
 5. Check that neighboring slides do not start the same way.
 6. Check that adjectives are varied and specific.
 7. Check that missing facts, Instagram handles, sources, or visuals are listed.
+8. For agenda slides, check address/date/time/price in the labels.
 
 ## Default output
 

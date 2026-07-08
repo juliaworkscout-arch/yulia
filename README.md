@@ -25,6 +25,7 @@ templates/
   ai-writing-prompts.md         — промпты для генерации постов и подборок в стиле ПОВОД
   telegram-post.md              — шаблоны постов по типам рубрик
   instagram-podborka.md         — шаблон подборки для Instagram
+  instagram-afisha.md           — шаблон Instagram-афиши с карточками событий
   instagram-stories.md          — шаблон сторис с трафиком
   threads-post.md               — шаблон поста в Threads
 
