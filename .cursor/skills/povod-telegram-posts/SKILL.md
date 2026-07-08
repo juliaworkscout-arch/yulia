@@ -30,6 +30,8 @@ Write as if advising a friend in a private chat:
 - local Minsk feeling, but understandable for newcomers;
 - useful details first: where, when, price, what to try, who to go with;
 - a final line that builds community: question, reactions, comment prompt, "send this to the person you would go with".
+- address the audience with polite plural "вы";
+- no profanity and no rough slang.
 
 ## Required input
 
@@ -41,6 +43,7 @@ If the user has not provided enough information, ask for the missing parts befor
 4. What to emphasize: vibe, benefit, unusual detail, limited offer.
 5. Whether it is advertising, barter, or partner content.
 6. Relevant navigation hashtags, if the user already selected them.
+7. Content type if known: event announcement, roundup, poll, meme, engagement post, announcement + poll.
 
 ## Default output
 
@@ -109,6 +112,9 @@ Always follow these rules:
 - Do not invent facts.
 - If there is no source, say that a source is needed before publication.
 - Keep the text easy to read on a phone.
+- Keep it concise: short paragraphs, no long text walls.
+- Address the audience as "вы": "сохраняйте", "пишите", "делитесь", "отправляйте".
+- Do not use profanity or rough slang.
 - Avoid dry phrases: "состоится", "мероприятие пройдёт", "посетителям будет предложено", "в рамках".
 - If the text sounds too promotional, make it more honest and editorial.
 - Do not use the word "идеальный" in recommendations and roundups.
@@ -120,6 +126,36 @@ Always follow these rules:
 - Avoid identical sentence openings in neighboring paragraphs.
 - Always add 1-3 relevant approved hashtags at the end of the post.
 - Do not use extra hashtags "just in case".
+
+## Telegram content types
+
+Use the right format for the task:
+
+1. **Event announcement** — sport, party, workshop, concert, festival, market.
+   - Keep details clear: where, when, price, registration.
+   - Can be strengthened with a poll: "Планируете идти?"
+
+2. **Roundup** — places, exhibitions, clothes, routes, photo spots.
+   - Strengthen it with a shared scenario / audience pain.
+   - Weak: "5 баров".
+   - Better: "Куда идти после расставания с бывшим".
+
+3. **Poll** — quick engagement format.
+   - The question should be simple and easy to answer.
+   - Options should be short.
+
+4. **Engagement + dialogue** — ask readers to share spots, plans, experiences, or find company in comments.
+   - Example: "Если ищете компанию на ___, расскажите немного о себе в комментариях".
+
+5. **Meme** — light contact with the audience.
+   - Must be understandable without a long explanation.
+   - No toxic jokes.
+
+6. **Photo/video + short caption** — quick mood post.
+   - Good for weather, weekends, city situations, editorial reactions.
+
+7. **Announcement + poll** — event announcement plus a poll about plans.
+   - Good for engagement before bigger events.
 
 ## Better than cliches
 
