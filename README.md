@@ -34,6 +34,10 @@ skills/
   povod-telegram-post.mdc       — project rule для Telegram-постов в Cursor
   povod-instagram-podborka.mdc  — project rule для Instagram-подборок в Cursor
 
+.cursor/skills/
+  povod-telegram-posts/SKILL.md     — видимый Cursor Skill для Telegram-постов
+  povod-instagram-roundups/SKILL.md — видимый Cursor Skill для Instagram-подборок
+
 calendar/
   content-calendar-template.csv — таблица контент-плана (импортируется в Google Sheets/Notion)
 
@@ -64,3 +68,17 @@ ideas-backlog.md                 — бэклог инфоповодов и ид
 - `.cursor/rules/povod-instagram-podborka.mdc`
 
 Их можно вызывать в чате простыми формулировками: «Telegram: напиши пост...» или «Instagram-подборка: сделай карусель...».
+
+## Видимые Cursor Skills
+
+Чтобы навыки появились во вкладке Skills, добавлены project-level skills:
+
+- `.cursor/skills/povod-telegram-posts/SKILL.md`
+- `.cursor/skills/povod-instagram-roundups/SKILL.md`
+
+В чате их можно вызвать так:
+
+- `/povod-telegram-posts` — для Telegram-постов
+- `/povod-instagram-roundups` — для Instagram-подборок
+
+Также можно прикреплять их как контекст через `@povod-telegram-posts` или `@povod-instagram-roundups`, если интерфейс Cursor показывает такую опцию.
