@@ -84,23 +84,21 @@ Approved tags:
 - Places: `#рестораны`, `#кафе`, `#свидание`.
 - Entertainment and leisure: `#развлечения`, `#спорт`, `#кино`, `#музыка`.
 - Sights and city guide: `#достопримечательности`, `#пешеходные`, `#музеи`, `#фотолокации`.
-- Events: `#открытия`, `#новости`, `#ивенты`, `#маркеты`.
-- Poster/agenda: `#афиша`.
 
 Do not use `#досуг` as a main tag. It overlaps with `#развлечения`; choose `#развлечения` for activities and things to do.
 Do not use `#фото-локации`: the hyphen can break a Telegram hashtag. Use `#фотолокации`.
+Do not use old tags that are not in the current pinned navigation: `#новости`, `#ивенты`, `#маркеты`, `#афиша`, `#открытия`.
 
 Examples:
 
-- New restaurant: `#открытия #рестораны`
-- New cafe: `#открытия #кафе`
+- New restaurant: `#рестораны`
+- New cafe: `#кафе`
 - Date roundup: `#свидание #кафе`
 - Belarusian clothing brand: `#бренды #одежда`
-- Local market: `#маркеты #бренды`
-- Weekend agenda: `#афиша #ивенты`
+- Local market: `#бренды #аксессуары` or `#бренды #одежда`
 - Run / yoga / cycling route: `#спорт #развлечения`
-- Concert / DJ set: `#музыка #ивенты`
-- Cinema screening: `#кино #ивенты`
+- Concert / DJ set: `#музыка`
+- Cinema screening: `#кино`
 - Minsk guide route: `#достопримечательности #пешеходные`
 - Museum / gallery: `#музеи #достопримечательности`
 - Photo spot: `#фотолокации #пешеходные`
