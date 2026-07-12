@@ -210,8 +210,10 @@ Do not use:
 - AI cliches: "никакой спешки — только шум волн", "городской шум на паузу", "место, где время замедляется", "перезагрузка для души";
 - empty cliches: "настоящая жемчужина", "кусочек Италии в центре города", "атмосфера комфорта", "гастрономический рай", "подарит незабываемые эмоции";
 - repeated universal adjectives: "отличный", "классный", "уютный", "атмосферный", "стильный".
+- repeated universal constructions: "хороший вариант", "подойдёт для тех", "можно заглянуть", "если хочется..." across multiple cards.
 
 If one adjective repeats across several slides, replace it with a specific detail.
+If a card starts sounding like other cards, rewrite it through a concrete scene, action, or detail.
 
 ## Anti-cliche rewrites
 
