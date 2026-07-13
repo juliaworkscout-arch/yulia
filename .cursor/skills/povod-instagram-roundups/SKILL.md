@@ -152,6 +152,8 @@ Caption structure:
 4. A list duplicating all slide names + Instagram handles.
 5. CTA: save, send, comment with your own spots.
 
+Important: the caption must not start with the same wording as the cover. If the cover says "Куда идти в Минске...", start the caption from a different angle: mood, situation, problem, or why the roundup was collected.
+
 Caption template:
 
 ```text
