@@ -1,1 +1,87 @@
-# yulia
+# ПОВОД — рабочая база SMM
+
+Городское медиа про Минск: Telegram, Instagram, Threads.
+
+> «ПОВОД» собирает поводы выйти из дома: новые места, белорусские бренды, уютные локации для свиданий и дней рождения. Любим город, но не идеализируем — говорим честно, с самоиронией и вниманием к деталям.
+
+Этот репозиторий — рабочая база копирайтера/SMM-специалиста: гайдлайны, шаблоны, чек-листы, контент-план и трекер показателей. Всё в Markdown и CSV, чтобы удобно редактировать, версионировать и делиться с командой/заказчиком.
+
+## Структура
+
+```
+docs/
+  tone-of-voice.md              — тон коммуникации, что можно/нельзя
+  rubrics.md                    — рубрикатор контента (Telegram + Instagram + Threads)
+  content-plan-telegram.md      — недельный ритм публикаций в Telegram
+  content-plan-instagram-threads.md — ритм для Instagram и Threads
+  telegram-content-types.md     — виды Telegram-контента и правила краткости/обращения
+  telegram-hashtag-navigation.md — навигация Telegram по хештегам и текст закрепа
+  fact-check-checklist.md       — проверка инфоповода перед публикацией
+  pre-publish-checklist.md      — финальный чек-лист перед постом
+  weekly-analytics-template.md  — шаблон еженедельного отчёта и стратегии роста
+  growth-ideas.md               — банк идей по развитию канала
+
+templates/
+  ai-writing-prompts.md         — промпты для генерации постов и подборок в стиле ПОВОД
+  telegram-post.md              — шаблоны постов по типам рубрик
+  instagram-podborka.md         — шаблон подборки для Instagram
+  instagram-afisha.md           — шаблон Instagram-афиши с карточками событий
+  instagram-stories.md          — шаблон сторис с трафиком
+  threads-post.md               — шаблон поста в Threads
+
+skills/
+  telegram-post-skill.md        — отдельный навык для Telegram-постов
+  instagram-podborka-skill.md   — отдельный навык для Instagram-подборок
+
+.cursor/rules/
+  povod-telegram-post.mdc       — project rule для Telegram-постов в Cursor
+  povod-instagram-podborka.mdc  — project rule для Instagram-подборок в Cursor
+
+.cursor/skills/
+  povod-telegram-posts/SKILL.md     — видимый Cursor Skill для Telegram-постов
+  povod-instagram-roundups/SKILL.md — видимый Cursor Skill для Instagram-подборок
+
+calendar/
+  content-calendar-template.csv — таблица контент-плана (импортируется в Google Sheets/Notion)
+
+ideas-backlog.md                 — бэклог инфоповодов и идей с источниками
+```
+
+## Как этим пользоваться
+
+1. Инфоповод сначала попадает в `ideas-backlog.md` — вместе с источником.
+2. Проходит проверку по `docs/fact-check-checklist.md`.
+3. Пишется по шаблону из `templates/` в нужной рубрике (`docs/rubrics.md`).
+4. Перед публикацией — `docs/pre-publish-checklist.md`.
+5. Публикация фиксируется в `calendar/content-calendar-template.csv`.
+6. Раз в неделю — отчёт по `docs/weekly-analytics-template.md`.
+
+## Навыки для быстрых задач
+
+Чтобы не объяснять формат каждый раз заново, используйте два отдельных навыка:
+
+- `skills/telegram-post-skill.md` — когда нужен пост в Telegram.
+- `skills/instagram-podborka-skill.md` — когда нужна подборка/карусель в Instagram.
+
+Когда появятся финальные шаблоны, добавьте их в соответствующий skill-файл — тогда они будут приоритетнее общих правил.
+
+Для Cursor дополнительно добавлены project rules:
+
+- `.cursor/rules/povod-telegram-post.mdc`
+- `.cursor/rules/povod-instagram-podborka.mdc`
+
+Их можно вызывать в чате простыми формулировками: «Telegram: напиши пост...» или «Instagram-подборка: сделай карусель...».
+
+## Видимые Cursor Skills
+
+Чтобы навыки появились во вкладке Skills, добавлены project-level skills:
+
+- `.cursor/skills/povod-telegram-posts/SKILL.md`
+- `.cursor/skills/povod-instagram-roundups/SKILL.md`
+
+В чате их можно вызвать так:
+
+- `/povod-telegram-posts` — для Telegram-постов
+- `/povod-instagram-roundups` — для Instagram-подборок
+
+Также можно прикреплять их как контекст через `@povod-telegram-posts` или `@povod-instagram-roundups`, если интерфейс Cursor показывает такую опцию.
