@@ -78,12 +78,15 @@ Unless the user asks for something else, return:
 
 Add **1-3 relevant hashtags** at the end of every Telegram post. Use only tags that really help users find the post later.
 
+For posts about venues, restaurants, cafes, city spots, and locations, add a district/zone hashtag as the third tag when the location is clear.
+
 Approved tags:
 
 - Brands: `#бренды`, `#одежда`, `#обувь`, `#сумки`, `#аксессуары`.
 - Places: `#рестораны`, `#кафе`, `#свидание`, `#открытия`, `#новости`.
 - Entertainment and leisure: `#развлечения`, `#спорт`, `#кино`, `#музыка`.
 - Sights and city guide: `#достопримечательности`, `#пешеходные`, `#музеи`, `#фотолокации`.
+- Districts/zones: `#центр`, `#немига`, `#октябрьская`, `#зыбицкая`, `#комаровка`, `#минскмир`, `#восток`, `#уручье`, `#лебяжий`, `#зелёныйлуг`, `#серебрянка`, `#лошица`, `#малиновка`, `#каменнаягорка`, `#сухарево`, `#чижовка`.
 
 Do not use `#досуг` as a main tag. It overlaps with `#развлечения`; choose `#развлечения` for activities and things to do.
 Do not use `#фото-локации`: the hyphen can break a Telegram hashtag. Use `#фотолокации`.
@@ -91,8 +94,8 @@ Do not use old tags that are not in the current pinned navigation: `#ивент�
 
 Examples:
 
-- New restaurant: `#открытия #рестораны`
-- New cafe: `#открытия #кафе`
+- New restaurant: `#открытия #рестораны #[district]`
+- New cafe: `#открытия #кафе #[district]`
 - City news: `#новости`
 - Date roundup: `#свидание #кафе`
 - Belarusian clothing brand: `#бренды #одежда`
@@ -103,6 +106,14 @@ Examples:
 - Minsk guide route: `#достопримечательности #пешеходные`
 - Museum / gallery: `#музеи #достопримечательности`
 - Photo spot: `#фотолокации #пешеходные`
+
+District examples:
+
+- Октябрьская, 16 / 23а: `#октябрьская`
+- Немига, 3: `#немига`
+- Братская, Минск Мир: `#минскмир`
+- Национальная библиотека / Восток: `#восток`
+- Дрозды / Лебяжий: `#лебяжий`
 
 ## Editorial rules
 
@@ -125,6 +136,7 @@ Always follow these rules:
 - Avoid repeating the same adjectives: "отличный", "классный", "уютный", "стильный", "атмосферный". Replace repeated evaluations with concrete details.
 - Avoid identical sentence openings in neighboring paragraphs.
 - Always add 1-3 relevant approved hashtags at the end of the post.
+- For venue/location posts, use the third hashtag for the district/zone when possible.
 - Do not use extra hashtags "just in case".
 
 ## Telegram content types
