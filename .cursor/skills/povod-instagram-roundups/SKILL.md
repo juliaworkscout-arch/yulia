@@ -103,6 +103,34 @@ One slide = one place or one idea.
 
 Slide text must be short enough for the visual template. Do not overload a card with long paragraphs.
 
+## Drink roundup slide
+
+For drink roundups ("где охлаждаться летними напитками", coffee, lemonade, matcha, cocktails), use a slightly denser card than a regular roundup.
+
+Structure:
+
+```text
+[Name]
+[address under the name or in the slide address field]
+
+[3-5 sentences: what kind of drinks are here, 3-5 specific examples from the menu, terrace/space detail if relevant, one small human reason to go]
+```
+
+Rules for drink slides:
+
+- do not duplicate the address inside the paragraph if it is already in the red label or under the title;
+- mention concrete drinks, not generic "освежающие напитки";
+- vary the verbs and structure across slides;
+- avoid repeating "для жаркого дня" on every card;
+- if there is a terrace, mention it once as a clear benefit;
+- text can be a bit fuller than event-card text, but should still fit the template.
+
+Reference style:
+
+```text
+Вакцина от летней жары — ледяная подборка напитков из «Синей Птицы». Отправляйтесь на самую стильную террасу города, чтобы попробовать малиновый айс матча-латте или айс какао с солёной карамелью. В сезонном меню также есть классический/вишнёвый бамбл, эспрессо-тоник, зелёный матча-тоник и карамельный айс-латте.
+```
+
 ## Agenda event slide
 
 For афиша/event slides, use this structure:
