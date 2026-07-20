@@ -122,7 +122,8 @@ Rules for drink slides:
 - mention concrete drinks, not generic "освежающие напитки";
 - vary the verbs and structure across slides;
 - avoid repeating "для жаркого дня" on every card;
-- if there is a terrace, mention it once as a clear benefit;
+- if there is a terrace, mention it only after checking that it is currently open;
+- if the venue is changing its menu or specific drinks are temporarily unavailable, do not promise exact positions without confirmation; add a short caveat or mark the item as needing a call;
 - text can be a bit fuller than event-card text, but should still fit the template.
 
 Reference style:
@@ -267,7 +268,8 @@ Before returning the final text:
 5. Check that neighboring slides do not start the same way.
 6. Check that adjectives are varied and specific.
 7. Check that missing facts, Instagram handles, sources, or visuals are listed.
-8. For agenda slides, check address/date/time/price in the labels.
+8. For drink/venue slides, check terrace availability and current menu before naming them as benefits.
+9. For agenda slides, check address/date/time/price in the labels.
 
 ## Default output
 
