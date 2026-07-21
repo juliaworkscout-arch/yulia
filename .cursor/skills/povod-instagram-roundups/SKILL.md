@@ -53,7 +53,7 @@ Ask for missing information or mark it as "needs clarification":
 3. 9 places / brands / events / ideas for slides 2-10.
 4. For each item: name, address, Instagram handle, price/range, key detail, source.
 5. Photo/video links or visual sources.
-6. Whether a story teaser is needed for traffic to Telegram.
+6. The main hook for the required story teaser that will lead viewers to the roundup.
 
 ## Slide 1 — cover
 
@@ -203,6 +203,24 @@ Caption template:
 И пишите в комментариях, какие места добавили бы вы.
 ```
 
+## Story teaser for every roundup
+
+Every roundup must include one story teaser so the POVOD team can film a short talking story and lead people to the post/video. The team handles filming, editing, and publishing; provide text only.
+
+Use this exact output format:
+
+```text
+текст для сторис (что проговаривать): [1-3 natural spoken lines for the team to say on camera]
+Текст для оформления (что прописывать): [short on-screen text / sticker text]
+```
+
+Rules:
+
+- the spoken text should sound natural, like a quick human intro to the post;
+- the on-screen text should be short enough to read immediately;
+- connect the story to the topic and give viewers a reason to open the post;
+- do not copy the caption as-is.
+
 ## Visual rules
 
 For all covers and slides:
@@ -269,7 +287,8 @@ Before returning the final text:
 6. Check that adjectives are varied and specific.
 7. Check that missing facts, Instagram handles, sources, or visuals are listed.
 8. For drink/venue slides, check terrace availability and current menu before naming them as benefits.
-9. For agenda slides, check address/date/time/price in the labels.
+9. Check that the story teaser includes both exact fields: "текст для сторис (что проговаривать)" and "Текст для оформления (что прописывать)".
+10. For agenda slides, check address/date/time/price in the labels.
 
 ## Default output
 
@@ -279,5 +298,5 @@ Unless the user asks for a different format, return:
 2. Text for slides 2-10.
 3. Text for slide 11.
 4. Caption.
-5. Story teaser if useful.
+5. Story teaser in the exact two-field format.
 6. A checklist of missing facts / visuals / sources.
